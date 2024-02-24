@@ -21,9 +21,14 @@ import {
     starbucks,
     InfinityJewelleryERP,
     startupdefenders,
+    MarketuneBusinessDevelopmentSolutions,
     tesla,
     shopify,
     carrent,
+    InfinityJewelleryERPProject,
+    EnglishStuProject,
+    SafeRoadProject,
+    SoukProject,
     jobit,
     tripguide,
     threejs,
@@ -46,11 +51,11 @@ export const navLinks = [
 
 const services = [
     {
-        title: "Web Developer",
+        title: "Front-end Developer",
         icon: web,
     },
     {
-        title: "Backend Developer",
+        title: "Back-end Developer",
         icon: backend,
     },
 ];
@@ -106,38 +111,52 @@ const technologies = [
     },
 ];
 
+
 const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Infinity Jewellery ERP",
-        // icon: starbucks,
-        icon: InfinityJewelleryERP,
-        iconBg: "#9ca3af",
-        date: "July 2022 - Present (part-time)",
-        points: [
-            "working on Infinity ERP system. Infinity is an ERP system that supports the Arabic language for managing gold and jewelry stores.",
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
+        "title": "Front-end Developer",
+        "company_name": "Infinity Jewellery ERP",
+        "icon": InfinityJewelleryERP,
+        "iconBg": "#9ca3af",
+        "date": "July 2022 - Present (part-time)",
+        "points": [
+            "Leading the development of the Infinity ERP system, tailored to simplify operations for local jewelry retailers.",
+            "Utilizing React.js and related technologies to create and maintain high-performance web applications.",
+            "Collaborating seamlessly with cross-functional local teams, including designers and product managers, to ensure product excellence.",
+            "Implementing responsive design principles and ensuring cross-browser compatibility for a seamless local user experience.",
+            "Actively participating in local code reviews, providing constructive feedback to enhance team efficiency."
+        ]
     },
     {
-        title: "React.js Developer",
-        company_name: "StartUp Defenders",
-        // icon: starbucks,
-        icon: startupdefenders,
-        iconBg: "#e6dedd",
-        date: "May 2021 - Present (full-time)",
-        points: [
-            "working on fleet management systems, ccm systems, car charging systems, and a lot of big projects, web applications, mobile applications, admin dashboards, and more. we mainly used in front-end development React js, Nextjs, Firebase, Redux, and redux toolkit.",
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
+        "title": "Front-end Developer",
+        "company_name": "Marketune, Business Development Solutions",
+        "icon": MarketuneBusinessDevelopmentSolutions,
+        "iconBg": "#e6dedd",
+        "date": "Jan 2023 - Oct 2023 · 10 mos",
+        "points": [
+            "Contributing to the local impact of MARKETUNE LLC's innovative journey in the marketing world for five years.",
+            "Leading local business growth by aligning marketing plans with strategic goals, overseeing implementation, and continuous monitoring.",
+            "Utilizing cutting-edge tools and technologies at Marketune to deliver custom solutions in software design, development, and user experience.",
+            "Thriving in a local environment that encourages innovation, making Marketune an ideal workplace for enhancing local user experiences in software and applications."
+        ]
     },
-];
+    {
+        "title": "Front-end Developer",
+        "company_name": "StartUp Defenders",
+        "icon": startupdefenders,
+        "iconBg": "#e6dedd",
+        "date": "May 2021 - Apr 2023 · 2 yrs",
+        "points": [
+            "Providing strategic solutions for local startups through comprehensive consultation services.",
+            "Contributing significantly to diverse local projects, including fleet management systems, ccm systems, and car charging systems.",
+            "Leveraging React.js, Next.js, Firebase, Redux, and redux toolkit for front-end development in the local context.",
+            "Actively collaborating with cross-functional local teams to deliver top-notch web applications with a focus on the local user experience.",
+            "Ensuring responsive design implementation and cross-browser compatibility for the local community.",
+            "Playing a pivotal role in local code reviews, fostering a culture of constructive feedback and continuous improvement."
+        ]
+    }
+]
+
 
 const testimonials = [
     {
@@ -168,68 +187,97 @@ const testimonials = [
 
 const projects = [
     {
-        name: "Car Rent",
+        name: "Infinity Jewellery ERP",
+        description: `Infinity is an ERP system that supports the Arabic language for managing gold and jewelry stores. It supports the application of the first phase of issuing the electronic invoice, in its two forms, the tax invoice and the simplified tax invoice. And you can follow up on the general sales of products and gold jewelry by piece and weight in addition to following up the sales of each seller separately, following up your stock of products, displaying stock value reports and inventory reports, and issuing profit and loss reports to know how well your business is performing each period of time.`,
+        tags: [
+            {
+                name: "ReactJs",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "ReduxJs",
+                color: "green-text-gradient",
+            },
+            {
+                name: "Bootstrap",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: InfinityJewelleryERPProject,
+        source_code_link: null,
+        site_link: 'https://infinityjerp.com/en/',
+    },
+    {
+        name: "EnglishStu",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            `Free online resources for learning English 🇬🇧🇺🇸 or teaching it. From easy guides to grammar to fun games and quizzes for learning English.`,
+        tags: [
+            {
+                name: "ReactJs",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "NextJs",
+                color: "green-text-gradient",
+            },
+            {
+                name: "TailwindCss",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "Firebase",
+                color: "orange-text-gradient",
+            },
+        ],
+        image: EnglishStuProject,
+        site_link: null,
+        source_code_link: "https://github.com/abdo-elmorsi/EnglishStu",
+    },
+    {
+        name: "Safe-Road",
+        description:
+            `It is a leading supplier of road safety solutions in Saudi. The Group offers a broad range of innovative and high-quality road safety solutions.`,
         tags: [
             {
                 name: "react",
                 color: "blue-text-gradient",
             },
             {
-                name: "mongodb",
+                name: "NextJs",
                 color: "green-text-gradient",
             },
             {
-                name: "tailwind",
+                name: "React Bootstrap",
                 color: "pink-text-gradient",
             },
         ],
-        image: carrent,
-        source_code_link: "https://github.com/",
+        image: SafeRoadProject,
+        site_link: "https://www.saferoad.com.sa/",
+        source_code_link: null,
     },
     {
-        name: "Job IT",
+        name: "Souk",
         description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+            `It is a multi-seller e-commerce website that offers customers a wide range of products and services.`,
         tags: [
             {
                 name: "react",
                 color: "blue-text-gradient",
             },
             {
-                name: "restapi",
+                name: "NextJs",
                 color: "green-text-gradient",
             },
             {
-                name: "scss",
+                name: "Bootstrap",
                 color: "pink-text-gradient",
             },
         ],
-        image: jobit,
-        source_code_link: "https://github.com/",
+        image: SoukProject,
+        site_link: null,
+        source_code_link: 'https://github.com/abdo-elmorsi/souk',
     },
-    {
-        name: "Trip Guide",
-        description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-        tags: [
-            {
-                name: "nextjs",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "supabase",
-                color: "green-text-gradient",
-            },
-            {
-                name: "css",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: tripguide,
-        source_code_link: "https://github.com/",
-    },
+
 ];
 
 export { services, technologies, experiences, testimonials, projects };

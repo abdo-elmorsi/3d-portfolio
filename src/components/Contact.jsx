@@ -17,8 +17,6 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
-    console.log(formRef.current);
-    console.log(formRef.current.name.value);
     if (formRef.current.name.value && formRef.current["user-email"].value && formRef.current["user_subject"].value) {
       emailjs
         .sendForm(
@@ -66,7 +64,7 @@ const Contact = () => {
               type='text'
               name='name'
               placeholder="What's your good name?"
-              className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
+              className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border  border-gray-500 font-medium'
             />
           </label>
           <label className='flex flex-col'>
@@ -75,7 +73,7 @@ const Contact = () => {
               type='email'
               name='user-email'
               placeholder="What's your web address?"
-              className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
+              className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border  border-gray-500 font-medium'
             />
           </label>
           <label className='flex flex-col'>
@@ -84,13 +82,13 @@ const Contact = () => {
               rows={7}
               name="user_subject"
               placeholder='What you want to say?'
-              className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
+              className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border  border-gray-500 font-medium'
             />
           </label>
 
           <button
             type='submit'
-            className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
+            className='bg-tertiary py-3 px-8 rounded-xl outline-none border border-gray-500 w-fit text-white font-bold shadow-md shadow-primary'
           >
             {loading ? "Sending..." : "Send"}
           </button>

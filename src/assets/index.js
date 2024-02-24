@@ -28,8 +28,13 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import InfinityJewelleryERP from "./company/infinityjewelleryerp.png";
 import startupdefenders from "./company/startupdefenders.png";
+import MarketuneBusinessDevelopmentSolutions from "./company/MarketuneBusinessDevelopmentSolutions.png";
 import tesla from "./company/tesla.png";
 
+import InfinityJewelleryERPProject from "./InfinityJewelleryERPProject.png";
+import EnglishStuProject from "./EnglishStuProject.png";
+import SafeRoadProject from "./Safe-Road.png";
+import SoukProject from "./SoukProject.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -63,8 +68,13 @@ export {
     starbucks,
     InfinityJewelleryERP,
     startupdefenders,
+    MarketuneBusinessDevelopmentSolutions,
     tesla,
     carrent,
+    InfinityJewelleryERPProject,
+    EnglishStuProject,
+    SafeRoadProject,
+    SoukProject,
     jobit,
     tripguide,
 };

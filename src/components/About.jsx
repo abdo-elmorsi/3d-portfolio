@@ -47,13 +47,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        👋 I'm a Front-End Web Developer of React JS
-        and NextJs and I know some knowledge of
-        NodeJs & Express. currently, in Cairo, Egypt,
-        looking for a new challenging position as a
-        Front-end developer where I can create digital
-        magic and elevate user experience to the next
-        level.
+        👋 I'm a Front-End Web Developer of React JS and NextJs and I know some knowledge of NodeJs & Express. currently, in Cairo, Egypt, looking for a new challenging position as a Front-end developer where I can create digital magic and elevate user experience to the next level.
 
       </motion.p>
 
